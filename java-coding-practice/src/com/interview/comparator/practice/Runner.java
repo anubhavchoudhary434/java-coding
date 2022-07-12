@@ -23,7 +23,9 @@ public class Runner {
 				else return -1;
 			}
 		};
+		
 		Collections.sort(laps,com);
+		//Collections.reverse(laps);
 		
 		for(Laptop l : laps)
 		{
